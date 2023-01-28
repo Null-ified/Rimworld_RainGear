@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef>
+    <defName>Remove_SoakingWet</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <makesSickThought>false</makesSickThought>
+    <tendable>false</tendable>
+		<isBad>false</isBad>
+    <description>This will prevent pawns from receiving the SoakingWet Debuff.</description>
+    <!-- <hediffClass>HediffWithComps</hediffClass> -->
+    <label>SoakingWetRemoval</label>
+    <comps>
+			<li Class="RainGear.HediffCompProperties_RG_MoodBuff">
+				<thoughtDefs>
+					<li>RemoveTheSoakingWetBuff</li>
+				</thoughtDefs>
+        <removeThoughtDefs> 
+          <li>SoakingWet</li>
+        </removeThoughtDefs>
+			</li>
+		</comps>
+  </HediffDef>
+
+</Defs>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+ <Defs>
+ <ThoughtDef>
+    <thoughtClass>RainGear.Thought_Hediff_RG</thoughtClass>
+    <defName>RemoveTheSoakingWetBuff</defName>
+    <hediff>Remove_SoakingWet</hediff>
+    <!---<workerClass>ThoughtWorker_Rain</workerClass> -->
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+      <stages>
+      <li>
+        <label>Pussy two</label>
+        <description>It feels amazing.</description>
+        <baseMoodEffect>60</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  </Defs>
